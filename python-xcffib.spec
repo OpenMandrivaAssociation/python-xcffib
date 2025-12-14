@@ -7,11 +7,12 @@ URL:		https://github.com/tych0/xcffib
 License:	Apache 2.0
 Group:		Development/Python
 BuildRequires:	python
-BuildRequires:  python3dist(cffi)
+BuildRequires:  python%{pyver}dist(cffi)
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildRequires:  pkgconfig(xcb)
 BuildRequires:  x11-server-xvfb
 BuildRequires:  xeyes
-Requires:  python3dist(cffi)
+Requires:  python%{pyver}dist(cffi)
 BuildSystem:	python
 BuildArch:	noarch
 
