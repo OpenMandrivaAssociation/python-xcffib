@@ -1,5 +1,5 @@
 Name:		python-xcffib 
-Version:	1.7.1
+Version:	1.12.0
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/x/xcffib/xcffib-%{version}.tar.gz
 Summary:	xcffib is the XCB binding for Python 
